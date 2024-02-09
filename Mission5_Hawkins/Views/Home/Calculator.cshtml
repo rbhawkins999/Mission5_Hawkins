@@ -1,0 +1,25 @@
+﻿@*calculator page *@
+<h1 style="text-align: center; margin-top: 50px; font-family: 'Col Font', sans-serif;">Calculator Page</h1>
+
+<h2 style="text-align: center; margin-top: 30px; font-family: 'Col Font', sans-serif;">Enter the amount of hours you want me to work for you and then click to see the total amount it would cost to hire me for those hours</h2>
+
+<label for="hours" style="text-align: center; display: block; font-family: 'Col Font', sans-serif;">Number of Hours:</label>
+<input type="number" id="hours" min="1" step="1" style="text-align: center; display: block; margin: 0 auto;">
+
+<br>
+
+<label style="text-align: center; display: block; font-family: 'Col Font', sans-serif;">Hourly Rate:</label>
+<input type="text" id="hourlyRate" value="77" readonly style="text-align: center; display: block; margin: 0 auto;">
+
+<br>
+
+<button id="calculateTotal" style="display: block; margin: 20px auto; font-family: 'Col Font', sans-serif;">Calculate Total</button>
+
+<br>
+
+<label style="text-align: center; display: block; font-family: 'Col Font', sans-serif;">Total:</label>
+<input type="text" id="total" readonly style="text-align: center; display: block; margin: 0 auto;">
+
+@*this is javascript files to be used for the calculator*@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/calculator.js"></script>
